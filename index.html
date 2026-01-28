@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Software Solutions</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="./image/Smart-logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+
+    <div class="header-top">
+      <img src="./image/Smart-logo.png" alt="Smart Software Solutions" class="logo">
+    </div>
+
+    <!-- BLOCO CENTRALIZADO -->
+    <div class="search-wrapper">
+
+      <!-- BUSCA FAQ -->
+      <div class="search-box">
+        <!-- Ícone SVG -->
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none">
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" />
+          <line x1="16.65" y1="16.65" x2="21" y2="21" stroke="currentColor" stroke-width="2" />
+        </svg>
+
+        <input
+          type="text"
+          id="faqSearch"
+          placeholder="Buscar no FAQ..."
+        />
+
+        <!-- Botão limpar -->
+        <button class="clear-search" id="clearSearch" title="Limpar busca">
+          ✕
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <h2>Perguntas Frequentes (FAQ)</h2>
+
+    <!-- PRODUTOS -->
+    <div class="faq-category">
+      <h3 class="faq-title">🛒 Produtos</h3>
+
+      <div class="faq-item">
+        <button class="faq-question">Como realizar o cadastro manual de um produto?</button>
+        <div class="faq-answer">
+          <p>Acesse o menu <strong>Produtos</strong>, clique em <strong>Cadastrar Novo Produto</strong>, preencha as
+            informações necessárias e salve para concluir.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">É possível cadastrar produtos de forma automática no sistema?</button>
+        <div class="faq-answer">
+          <p>Sim. O sistema permite o cadastro automático de produtos por meio de importação ou integrações disponíveis.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Como realizar entradas de estoque?</button>
+        <div class="faq-answer">
+          <p><strong>Menu estoque, clique em entrada estoque</strong>, Selecione o produto solicitado para realizar a entrada, no campo abaixo registre a entrada de mercadorias informando <strong>quantidade, custo unitário, clique em adicionar e concluir</strong>.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Como realizar a saída manual de estoque sem efetuar uma venda?</button>
+        <div class="faq-answer">
+          <p><strong>Menu estoque, clique em saída em estoque</strong>, Selecione o produto solicitado para realizar a saída, no campo abaixo registre a saída de mercadorias informando <strong>quantidade, clique em adicionar e concluir</strong>.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FLUXO DE CAIXA -->
+    <div class="faq-category">
+      <h3 class="faq-title">💰 Fluxo de Caixa</h3>
+
+      <div class="faq-item">
+        <button class="faq-question">Onde posso visualizar as vendas realizadas?</button>
+        <div class="faq-answer">
+          <p>No menu <strong>Vendas</strong> ou <strong>Fluxo de Caixa</strong>.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Como cancelar uma venda?</button>
+        <div class="faq-answer">
+          <p>Pelo histórico de vendas realizadas, se o usuário tiver permissão. Selecione a venda clicando 2x e cancelar. </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ESTOQUE -->
+    <div class="faq-category">
+      <h3 class="faq-title">📦 Estoque</h3>
+
+      <div class="faq-item">
+        <button class="faq-question">Como realizar entradas de estoque no sistema?</button>
+        <div class="faq-answer">
+          <p>Acesse o menu <strong>Estoque</strong> e registre a movimentação.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- VENDAS -->
+    <div class="faq-category">
+      <h3 class="faq-title">🧾 Vendas</h3>
+
+      <div class="faq-item">
+        <button class="faq-question">Como visualizar o faturamento mensal?</button>
+        <div class="faq-answer">
+          <p>Nos <strong>Relatórios de Vendas</strong> e selecione vendas do mês.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- DESPESAS -->
+    <div class="faq-category">
+      <h3 class="faq-title">💸 Despesas</h3>
+
+      <div class="faq-item">
+        <button class="faq-question">Como lançar despesas?</button>
+        <div class="faq-answer">
+          <p>No menu <strong>Financeiro</strong>, selecione <strong>Informar Despesa</strong> e preencha as informações necessárias e salve para concluir.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- BACKUP -->
+    <div class="faq-category">
+      <h3 class="faq-title">💾 Backup</h3>
+
+      <div class="faq-item">
+        <button class="faq-question">Como realizar backup?</button>
+        <div class="faq-answer">
+          <p>Em <strong>Configurações &gt; Gerar Backup</strong>.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Smart Software Solutions • Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
