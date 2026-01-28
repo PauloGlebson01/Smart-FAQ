@@ -19,8 +19,6 @@ body {
 
 /* LOGO */
 .logo {
-  width: 50%;
-  max-width: 200px;
   position: absolute;
   top: 20px;
   left: 20px;
