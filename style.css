@@ -208,6 +208,17 @@ mark,
   line-height: 1.5;
 }
 
+/* Imagem dentro da resposta do FAQ */
+.faq-image {
+  width: 100%;
+  max-width: 600px;
+  margin: 10px auto 20px;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
 /* ================= FOOTER ================= */
 .footer {
   background-color: #343a40;
